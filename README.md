@@ -3,6 +3,65 @@
 # 2019-09-23 组蛋白修饰
 组蛋白修饰(histone modification)是指组蛋白在相关酶作用下，N端尾部氨基酸发生甲基化(methylation, M)、乙酰化(acetylation, Ac)、磷酸化(phosphorylation, P)、泛素化(ubiquitination)、ADP核糖基化(ADP-ribosylation)等修饰，调控染色质的结构和组成，直接影响转录因子与基因启动子的结合而调节基因表达的活化或沉默。
 
+  <table width="895" border="0" cellpadding="0" cellspacing="0" style='width:447.50pt;border-collapse:collapse;table-layout:fixed;'>
+   <col width="194" style='mso-width-source:userset;mso-width-alt:4729;'/>
+   <col width="168" style='mso-width-source:userset;mso-width-alt:4095;'/>
+   <col width="171" style='mso-width-source:userset;mso-width-alt:4168;'/>
+   <col width="362" style='mso-width-source:userset;mso-width-alt:8825;'/>
+   <tr height="50" style='height:25.00pt;mso-height-source:userset;mso-height-alt:500;'>
+    <td class="xl65" height="50" width="194" style='height:25.00pt;width:97.00pt;'></td>
+    <td class="xl65" width="168" style='width:84.00pt;' x:str>修饰的类型</td>
+    <td class="xl65" width="171" style='width:85.50pt;' x:str>对转录的作用</td>
+    <td class="xl65" width="362" style='width:181.00pt;' x:str>组蛋白修饰位点</td>
+   </tr>
+   <tr height="98" style='height:49.00pt;mso-height-source:userset;mso-height-alt:980;'>
+    <td class="xl65" height="382" rowspan="5" style='height:191.00pt;border-right:none;border-bottom:none;' x:str>小分子基团修饰</td>
+    <td class="xl65" x:str>乙酰化(可逆)</td>
+    <td class="xl65" x:str>激活</td>
+    <td class="xl65" x:str>H3(K9, K14, K18, K23); H4(K5, K8, K12, K16); H2A(K5, K9); H2B(K5, K12, K15, K20)</td>
+   </tr>
+   <tr height="84" style='height:42.00pt;mso-height-source:userset;mso-height-alt:840;'>
+    <td class="xl65" rowspan="2" style='border-right:none;border-bottom:none;' x:str>甲基化(可逆)</td>
+    <td class="xl65" x:str>激活</td>
+    <td class="xl65" x:str>H3(K4, K36, K79)</td>
+   </tr>
+   <tr height="66" style='height:33.00pt;mso-height-source:userset;mso-height-alt:660;'>
+    <td class="xl65" x:str>抑制</td>
+    <td class="xl65" x:str>H3(K9, K27); H4(K20)</td>
+   </tr>
+   <tr height="68" style='height:34.00pt;mso-height-source:userset;mso-height-alt:680;'>
+    <td class="xl65" rowspan="2" style='border-right:none;border-bottom:none;' x:str>磷酸化</td>
+    <td class="xl65" x:str>激活</td>
+    <td class="xl65" x:str>H3(S10)</td>
+   </tr>
+   <tr height="66" style='height:33.00pt;mso-height-source:userset;mso-height-alt:660;'>
+    <td class="xl65" x:str>抑制</td>
+    <td class="xl65" x:str>H2A(S1)</td>
+   </tr>
+   <tr height="72" style='height:36.00pt;mso-height-source:userset;mso-height-alt:720;'>
+    <td class="xl65" height="224" rowspan="3" style='height:112.00pt;border-right:none;border-bottom:none;' x:str>肽类修饰</td>
+    <td class="xl65" rowspan="2" style='border-right:none;border-bottom:none;' x:str>泛素化</td>
+    <td class="xl65" x:str>激活</td>
+    <td class="xl65" x:str>H2B(K123)</td>
+   </tr>
+   <tr height="56" style='height:28.00pt;mso-height-source:userset;mso-height-alt:560;'>
+    <td class="xl65" x:str>抑制</td>
+    <td class="xl65" x:str>H2A(K119)</td>
+   </tr>
+   <tr height="96" style='height:48.00pt;mso-height-source:userset;mso-height-alt:960;'>
+    <td class="xl65" x:str>SUMO化</td>
+    <td class="xl65" x:str>抑制</td>
+    <td class="xl65" x:str>H4(K5, K8, K12, K16); H2A(K126); H2B(K6, K7, K16, K17)</td>
+   </tr>
+   <![if supportMisalignedColumns]>
+    <tr width="0" style='display:none;'>
+     <td width="194" style='width:97;'></td>
+     <td width="168" style='width:84;'></td>
+     <td width="171" style='width:86;'></td>
+     <td width="362" style='width:181;'></td>
+    </tr>
+   <![endif]>
+  </table>
 
 ## 组蛋白乙酰化：
 这是由组蛋白乙酰转移酶(histone acetyltransferase，HAT)和组蛋白去乙酰化酶(histone deacetylase, HDAC)协调催化进行的一个可逆动态过程。组蛋白乙酰化修饰一般与基因转录激活相关，而组蛋白去乙酰化则与基因沉默相关。
